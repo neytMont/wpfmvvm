@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight.Messaging;
 
-namespace wpfmvvm.Messages
+namespace CECS475_Nathanielwpfmvvm.Messages
 {
-    class NathanielViewModelMessage: MessageBase
+    class NathanielViewModelMessage : MessageBase
     {
         public string Text { get; set; }
     }
